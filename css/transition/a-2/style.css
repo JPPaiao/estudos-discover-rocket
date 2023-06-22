@@ -1,0 +1,31 @@
+.line {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    height: 25px;
+    margin-bottom: 10px;
+
+    transition: all;
+    transition-duration: 3s;
+}
+
+body:hover .line {
+    width: 20px;
+    background-color: rgb(255, 0, 234);
+}
+
+.ease {
+    transition-timing-function: ease;
+}
+
+.linear {
+    transition-timing-function: linear;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+}
